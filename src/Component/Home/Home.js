@@ -1,5 +1,6 @@
 import React from 'react';
 import lipstick from '../../Image/lipstick.jpg'
+import redlips from '../../Image/redlips.jpg'
 const Home = () => {
     return (
         <div>
@@ -14,8 +15,13 @@ const Home = () => {
 
             </div>
             <button className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-8'>Live Demo</button>
-            <div className='w-1/3 mt-8'>
-                <img src={lipstick} alt="" />
+            <div className='mt-8'>
+                <div className='w-1/3 mx-auto pb-10'>
+                    <img src={lipstick} alt="" />
+                </div>
+            </div>
+            <div className='mt-8'>
+                <h1 className=' text-4xl text-neutral-800'>Customer Reviews(3)</h1>
             </div>
         </div>
     );

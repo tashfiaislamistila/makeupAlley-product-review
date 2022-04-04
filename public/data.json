@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "rating": "5.0 out of 5.0",
+        "name": "Carolyn Tillman",
+        "review": "I actually like a dry consistency for a red. That m and it wont move. I love this color. Brightens your face and teeth. Beautiful color. The dry matte consistency keeps it from moving !!"
+    },
+    {
+        "id": 2,
+        "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "rating": "2.0 out of 5.0",
+        "name": "Briggs Chen",
+        "review": "Vibrant color but too drying for me...also color looked more pink then red for my skin type."
+    },
+    {
+        "id": 3,
+        "image": "https://images.unsplash.com/photo-1619895862022-09114b41f16f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "rating": "4.0 out of 5.0",
+        "name": "Espinoza Holman",
+        "review": "The color of this lipstick is gorgeous! The absolute perfect poison apple red. It has a bit of a cool tone to it so it's perfect for blondes but it also looks good on warmer complexions. A tiny bit of shimmer but nothing alarming. The only thing is it tends to go on a little dry. But it doesn't dry out your lips, it just lasts. Hard to explain. A very good formula. Doesn't smear or smudge either. I love it And with a monochromatic look like a red eye shadow and a red blush, and maybe a red outfit you'll really be making a statement. Also I like to use it as blush. And it comes in a travel size if you don't know if your ready to commit to the color. MAC always has free ship and check out their recycling program! FREEBIES."
+    },
+    {
+        "id": 4,
+        "image": "https://images.unsplash.com/photo-1628890923662-2cb23c2e0cfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": "3.0 out of 5",
+        "name": "Georgina Coffey",
+        "review": "Beautiful saturated red that will make your teeth even whiter, no orange no blue, just pure red. The formula is terrible though,you literally have to drag it on your lips. Best technique is to use a brush to roughly apply a first coat, blot and then go straight from the bullet. That way it won't leave a dreaded middle patch in the centre of your lips if you plan to wear it for a meal. It's great, it's a classic and it's been around forever but I feel the new reds by Lisa Eld ridge are far better."
+    },
+    {
+        "id": 5,
+        "image": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": "5.0 out of 5.0",
+        "name": "Schneider Mullen",
+        "review": "Okay this has to be one of the best reds out there as I've not seen it on one skin tone that it has not matched.Also it is so long lasting especially if you wear the lip liner with it. I have always received compliments whenever I've worn it.."
+    },
+    {
+        "id": 6,
+        "image": "https://images.unsplash.com/photo-1521252659862-eec69941b071?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "rating": "4.0 out of 5.0",
+        "name": "Barry Clayton",
+        "review": "The color is beautiful and lasting but a little too dry."
+    }
+]
