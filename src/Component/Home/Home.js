@@ -1,10 +1,15 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useReviews from '../../CustomHooks/useReviews';
 import lipstick from '../../Image/lipstick.jpg'
 import ReviewComponent from '../ReviewComponent/ReviewComponent';
 
 const Home = () => {
     const [reviews] = useReviews();
+    const navigate = useNavigate();
+    const showReviewDetails = () => {
+        navigate('/review');
+    }
     return (
         <div>
             <div className='text-6xl text-red-700 mt-8'>
@@ -34,7 +39,7 @@ const Home = () => {
                     }
                 </div>
                 <div>
-                    <button className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-8' >See All Reviews</button>
+                    <button onClick={showReviewDetails} className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-8' >See All Reviews</button>
                 </div>
             </div>
         </div>
