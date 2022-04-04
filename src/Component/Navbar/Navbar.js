@@ -5,7 +5,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <nav>
-            <div className='link-container'>
+            <div className='link-container font-bold'>
                 <NavLink className={({ isActive }) => isActive ? "active-link" : "link"} to='./'>Home</NavLink>
                 <NavLink className={({ isActive }) => isActive ? "active-link" : "link"} to='./review'>Review Page</NavLink>
                 <NavLink className={({ isActive }) => isActive ? "active-link" : "link"} to='./dashboard'>Dashboard</NavLink>

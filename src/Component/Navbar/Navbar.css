@@ -1,13 +1,23 @@
+nav {
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d4d3d3f5;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+    padding: 0;
+
+}
+
 .link {
     text-decoration: none;
     margin-left: 20px;
     font-size: 25px;
-    color: #800000;
+    color: #800000f5;
     transition: color ease-in-out 300ms;
 }
 
 .link:hover {
-    color: #242222;
+    color: #080808;
 }
 
 .active-link {
