@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Dashboard from './Component/Dashbord/Dashboard';
-import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
+import Navbar from './Component/Navbar/Navbar';
 import NotFound from './Component/NotFound/NotFound';
 import QuestionAnswer from './Component/QuestionAnswer/QuestionAnswer';
 import Review from './Component/Review/Review';
@@ -10,7 +10,7 @@ import Review from './Component/Review/Review';
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/review' element={<Review></Review>}></Route>
