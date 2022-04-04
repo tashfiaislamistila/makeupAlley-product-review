@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 const ReviewComponent = (props) => {
-    console.log(props.review)
     const { image, name, rating, review } = props.review;
     return (
         <div className='max-w-sm rounded overflow-hidden shadow-lg p-10 '>

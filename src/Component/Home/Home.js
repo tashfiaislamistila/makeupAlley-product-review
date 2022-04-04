@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='mt-8'>
-                <h1 className=' text-4xl text-neutral-800'>Customer Reviews</h1>
+                <h1 className=' text-4xl text-neutral-800'>Customer Reviews : {reviews.slice(0, 3).length}</h1>
                 <div className='grid grid-cols-3 justify-items-center gap-4 pt-10 '  >
                     {
                         reviews.slice(0, 3).map(review => <ReviewComponent
