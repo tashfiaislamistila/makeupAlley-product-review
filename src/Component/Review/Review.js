@@ -6,7 +6,7 @@ const Review = () => {
     const [reviews] = useReviews();
     return (
         <div>
-            <h1>This is Our review page</h1>
+            <h1 className='text-4xl text-neutral-800 mt-8'>You can see our customers reviews</h1>
             <div className='grid grid-cols-3 justify-items-center gap-4 pt-10 '  >
                 {
                     reviews.map(review => <ReviewComponent
@@ -14,7 +14,6 @@ const Review = () => {
                         review={review}
                     ></ReviewComponent>)
                 }
-
             </div>
         </div>
     );

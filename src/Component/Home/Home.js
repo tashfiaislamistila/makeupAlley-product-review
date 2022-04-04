@@ -34,12 +34,10 @@ const Home = () => {
                     }
                 </div>
                 <div>
-                    <button >See All Reviews</button>
+                    <button className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded mt-8' >See All Reviews</button>
                 </div>
-
             </div>
         </div>
     );
 };
-
 export default Home;
