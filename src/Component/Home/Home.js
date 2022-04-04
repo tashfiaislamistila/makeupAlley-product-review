@@ -1,7 +1,10 @@
 import React from 'react';
+import useReviews from '../../CustomHooks/useReviews';
 import lipstick from '../../Image/lipstick.jpg'
+import ReviewComponent from '../ReviewComponent/ReviewComponent';
 
 const Home = () => {
+    const [reviews] = useReviews();
     return (
         <div>
             <div className='text-6xl text-red-700 mt-8'>
@@ -21,7 +24,19 @@ const Home = () => {
                 </div>
             </div>
             <div className='mt-8'>
-                <h1 className=' text-4xl text-neutral-800'>Customer Reviews(3)</h1>
+                <h1 className=' text-4xl text-neutral-800'>Customer Reviews</h1>
+                <div className='grid grid-cols-3 justify-items-center gap-4 pt-10 '  >
+                    {
+                        reviews.slice(0, 3).map(review => <ReviewComponent
+                            key={review.id}
+                            review={review}
+                        ></ReviewComponent>)
+                    }
+                </div>
+                <div>
+                    <button >See All Reviews</button>
+                </div>
+
             </div>
         </div>
     );
