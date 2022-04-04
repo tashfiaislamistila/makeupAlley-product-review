@@ -1,8 +1,16 @@
 # Project name MakeupAlley
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project live site https://makeupalley-product-review-tashfiaislamistila.netlify.app/
 
-## Available Scripts
+
+## Project Description
+* I made this project by React Router you can move one page to another page easily.
+* In my project navbar I use active link.
+* In home page there is a 2 button which is navigate easily.
+* In review page you can see all the reviews.
+* In dashboard you can see the chart of product investment,sell and revenue.
+* In question page there are some question and answer।
+* In about us page there are a product image and simple note for encouraging people about product review.
 
 In the project directory, you can run:
 
